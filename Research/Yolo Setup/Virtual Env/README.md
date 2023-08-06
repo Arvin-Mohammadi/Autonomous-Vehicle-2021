@@ -1,45 +1,44 @@
 # VIRTUAL ENVIRONMENT IN PYTHON
+------
 
-this script follows a standard procedure to making a new virtual environment using python in windows and linux
+this script follows a standard procedure to making a new virtual environment using python in windows
 
 ## Creating the Virtual Env
-
-if needed first use the following command 
+------
+to install the virtual environment package to main Python branch:
 ```
-	pip install --user virtual env
+	python -m pip install --user virtual env
 ```
-then to create the virtual environemnt you can use: 
+To create the Python Virtual Env named: "my_env_name":
 ```
 	python -m venv my_env_name
 ```
-now for activating the virtual environment type: 
+Activating the Virtual Env:
 ```
 	.\my_env_name\scripts\activate
 ```
 
 ## Installing Dependencies 
+------
+before installing anything you need to go inside the virtual environment folder and inside the configuration file called: "pyvenv.cfg" change the line `include-system-site-packages = false` to `include-system-site-packages = true`. 
 
-before installing anything you need to go inside the virtual environment folder and inside the configuration file called: "pyvenv.cfg" change the line: 
-```
-	include-system-site-packages = false
-```
-to 
-```
-	include-system-site-packages = true
-```
-then you need to upgrade pip and the command for that is:
+Upgrade Pip:
 ```
 	pip install --upgrade pip
 ```
-after these steps there shouldn't be a warning or error and you'll be able to install the dependencies using the command: 
+
+installing new packages: 
 ```
 	pip install -U --force-reinstall package_name
 ```
 
-## Most Used packages for installing 
-
-There are a couple of packages that you'll most likely be needing are `numpy` and `jupyter` and `pandas` and `matplotlib` and etc.
-for jupyter note that you'll need to add the virtual enviornment to jupyter notebook using the command 
+## Installing Jupyter Notebook (Optional)
+------
+Install Jupyter Notebook:
+```
+	pip install -U --force-reinstall jupyter
+```
+for jupyter, note that you'll need to add the virtual enviornment to jupyter notebook using the command 
 ```
 	python -m ipykernel install --user --name=my_env_name
 ```
