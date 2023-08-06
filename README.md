@@ -38,7 +38,35 @@ With Object Detection, we can accurately identify whether the driver is eating/d
 * `eating`: Driver eating while driving
 * `drinking`: Driver drinking while driving
 
+
 ![Untitled-1](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/assets/69509720/47b1a1e0-2eaa-4fc9-a8de-ed31a7fa96b9)
 
 
 By focusing on these classes, we can effectively monitor and enhance the safety of the driving experience.
+
+
+
+### Yolo-V5
+------
+Yolo-V5 is an object detection model developed by ultralytics which was released in June 2020. Yolo-V5 has four main models and each of those four model will give different levels of performance. [3]
+
+
+![image](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/assets/69509720/d53c3d78-927c-4785-8635-51f5950217ce)
+[Source: https://github.com/ultralytics/yolov5]
+
+The output of Yolo contains three things [1]: 
+1. Is object detected or not (Boolian)
+2. The class of the detected object
+3. The position of the detected object
+
+### Convolutional Neural Networks 
+To explain CNN in an intuitive sense, let's say we have a picture of a given object in this case a car. The car has some "features" unique to 
+
+
+## References
+------
+
+[1] [Code Basics Tutorial](https://www.youtube.com/watch?v=ag3DLKsl2vk&ab_channel=codebasics)
+[2] [Nicholas Renotte Tutorial](https://www.youtube.com/watch?v=tFNJGim3FXw&t=873s&ab_channel=NicholasRenotte) 
+[3] [YOLOv5 - medium article](https://medium.com/axinc-ai/yolov5-the-latest-model-for-object-detection-b13320ec516b)
+[4] [Yolo Main Repository](https://github.com/ultralytics/yolov5)
