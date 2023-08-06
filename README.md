@@ -70,6 +70,11 @@ For further information about CNN, you can refer to this [Medium Article](https:
 #### Yolo-V5 Setup
 ------
 
+**Step 1: Virtual Environment**
+
+The first step is to make a virtual Environment, you can find details of making a virtual environemnt using Python in the following link:
+
+[HOW TO MAKE A VIRTUAL ENV](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/blob/main/Research/Yolo%20Setup/Virtual%20Env/README.md)
 
 ## References
 ------
