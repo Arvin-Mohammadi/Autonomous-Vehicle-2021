@@ -1,4 +1,4 @@
-# Ghazal-Self-Driving-Car
+![image](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/assets/69509720/36190454-61dc-43d9-861f-5d26dd98032b)# Ghazal-Self-Driving-Car
 ------
 Welcome to the Ghazal-Self-Driving-Car repository! This repository stores the progress of the PSG Team on developing self-driving car technologies.
 
@@ -60,7 +60,23 @@ The output of Yolo contains three things [1]:
 3. The position of the detected object
 
 ### Convolutional Neural Networks 
-To explain CNN in an intuitive sense, let's say we have a picture of a given object in this case a car. The car has some "features" unique to 
+CNN is a complex topic, and I've had trouble understanding it myself. So, let's try to make it clearer with an example. Imagine I have a picture of a Lamborghini that I want to detect using artificial intelligence. This special car has unique "features" like the shape of the headlamps, the doors, or the rear spoiler.
+
+![image](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/assets/69509720/e67ebe39-840b-4e65-85ae-e9a594c5653a)
+
+CNN's main function is to learn these unknown features and search for them within the picture. These features can be represented as [features_1, feature_2, ..., feature_k]. For each value of "i" between 1 and k, CNN will take feature_i and search for that specific feature in the picture. In our Lamborghini example, if CNN considers the "shape of the mirror" as an interesting feature, it will scan the picture to find that specific feature. When the mirror is found, CNN will think, "huh, maybe this is a Lamborghini."
+
+
+Now, let's delve into the mathematical representation of these features. In the basic application of CNN on RGB images, the images have three color channels: Red, Blue, and Green. In mathematical form, each of these channels is represented as matrices with numbers between 0 and 255 (before normalization). The features are also represented as matrices, but they are smaller in size.
+
+[Source: https://e2eml.school/convert_rgb_to_grayscale.html]
+
+These features can be visualized as filters that slide over the picture. When a filter encounters a shape similar to our feature, it becomes "activated" or in simpler terms, it says, "hey, found your mirror." Since we have "k" features, we end up with "k" output channels.
+
+
+In summary, CNN learns interesting features to identify an object. It then searches for these features in a given picture. When enough features are detected in the picture, CNN concludes that the desired object is present. Of course, there's much more to CNN, but I won't go into further detail as that's not the intention of this article. Let's move on to the next topic.
+
+
 
 
 ## References
