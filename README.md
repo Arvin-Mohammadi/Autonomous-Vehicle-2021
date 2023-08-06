@@ -8,7 +8,8 @@ Overview:
 - Introduction
 - Yolo-V5
   - Convolutional Neural Networks (CNNs)
-  - Yolo-V5 Theory
+  - Yolo-V5 Setup
+  - Yolo-V5 Training
 - Setup and Installation
 - Dataset Preparation
 - Results 
@@ -38,13 +39,9 @@ With Object Detection, we can accurately identify whether the driver is eating/d
 * `eating`: Driver eating while driving
 * `drinking`: Driver drinking while driving
 
-
 ![Untitled-1](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/assets/69509720/47b1a1e0-2eaa-4fc9-a8de-ed31a7fa96b9)
 
-
 By focusing on these classes, we can effectively monitor and enhance the safety of the driving experience.
-
-
 
 ### Yolo-V5
 ------
@@ -59,24 +56,19 @@ The output of Yolo contains three things [1]:
 2. The class of the detected object
 3. The position of the detected object
 
-### Convolutional Neural Networks 
+#### Convolutional Neural Networks 
+------
 
-CNN is a pretty complex issue, I’ve had much trouble with understanding it. So let’s try to go through this with an example. Let’s say I have a picture of a Lamborghini that I want to detect using artificial intelligence. My special car has some special “features” unique to it, this features can be the shape of the headlamps, the shape of the doors, the edges of the rear spoiler, whatever.
+Convolutional Neural Networks (CNN) can be quite challenging to understand, as I myself had struggled with it in the past. However, providing and example can help us understand the intuition behind CNNs. Assuming we have a picture of a given object (in this case a car), we want to detect using artificial intelligence. This object has some unique "features," such as the shape of the headlamps, the doors, or the edges of the rear spoiler.
 
 ![Untitled-2](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/assets/69509720/eca56bd0-102d-4ebf-af4b-1100aac3a894)
 
-What CNN does, is that it learn these unknown features, and search for them inside the picture. So the features will look like [features_1, feature_2, …, feature_k]. If we take “i” to be between 1 and k then, CNN will take feature_i and look for that specific feature inside our picture. Sticking with our Lamborghini example, if CNN thinks that “shape of the mirror” is an interesting feature, it will look inside the picture to find that specific feature. If CNN finds that mirror, it will think: “huh, maybe this is a Lamborghini”.
+What CNN does is essentially learn these unknown features and searches for them inside the picture. The features are represented as [feature_1, feature_2, ..., feature_k]. For each value of "i" between 1 and k, CNN takes feature_i and looks for that specific feature within the picture. In the case of our car example, if CNN recognizes the "shape of the mirror" as an interesting feature during training, it will search for that specific feature in the image during prediction. If CNN finds that feature (mirror), it will identify the object it is attached to as a car.
 
-More Information about CNN: [Medium Article](https://towardsdev.com/lenet-5-theory-cnn-gd-sgd-dropout-maxpool-lenet-5-ba7863360bdd)
+For further information about CNN, you can refer to this [Medium Article](https://towardsdev.com/lenet-5-theory-cnn-gd-sgd-dropout-maxpool-lenet-5-ba7863360bdd)
 
-
-
-
-
-
-
-
-
+#### Yolo-V5 Setup
+------
 
 
 ## References
