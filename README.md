@@ -72,6 +72,14 @@ The first step is to make a virtual Environment, you can find details of making 
 
 [HOW TO MAKE A VIRTUAL ENV](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/blob/main/Research/Yolo%20Setup/Virtual%20Env/README.md)
 
+**Step 2: Install Pytorch and Cuda**
+
+First go to the [Pytorch Local Installation](https://pytorch.org/get-started/locally/) address. In the following section choose the appropriate installation version for your computer. Copy the output command and run it in your Virtual Env 
+
+![Untitled-2](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/assets/69509720/287fd88c-3a69-469b-932d-893bcaec10c9)
+
+NOTE: If you choose the GPU-activated version with Cuda, you have to have the currect version of Cuda installed on your pc. Google Cuda version 11.8 (or your version) and open the first link which takes you to a page similar to this [CUDA Download Page](https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local)
+
 ## References
 ------
 
