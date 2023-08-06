@@ -82,9 +82,7 @@ NOTE: If you choose the GPU-activated version with Cuda, you have to have the cu
 
 **Step 3: Run The Jupyter Notebook**
 
-The following jupyter notebook contains the code necessary for Using Yolo-V5 for a given image.
-
-[Yolo-V5](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/blob/main/Python/yolov5.ipynb)
+The following jupyter notebook contains the code necessary for Using Yolo-V5 for a given image. [Yolo-V5](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/blob/main/Python/yolov5.ipynb)
 
 ## References
 ------
