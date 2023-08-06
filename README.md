@@ -1,4 +1,4 @@
-![image](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/assets/69509720/36190454-61dc-43d9-861f-5d26dd98032b)# Ghazal-Self-Driving-Car
+# Ghazal-Self-Driving-Car
 ------
 Welcome to the Ghazal-Self-Driving-Car repository! This repository stores the progress of the PSG Team on developing self-driving car technologies.
 
