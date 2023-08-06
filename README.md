@@ -75,6 +75,9 @@ For further information about CNN, you can refer to this [Medium Article](https:
 ------
 
 [1] [Code Basics Tutorial](https://www.youtube.com/watch?v=ag3DLKsl2vk&ab_channel=codebasics)
+
 [2] [Nicholas Renotte Tutorial](https://www.youtube.com/watch?v=tFNJGim3FXw&t=873s&ab_channel=NicholasRenotte) 
+
 [3] [YOLOv5 - medium article](https://medium.com/axinc-ai/yolov5-the-latest-model-for-object-detection-b13320ec516b)
+
 [4] [Yolo Main Repository](https://github.com/ultralytics/yolov5)
