@@ -80,6 +80,12 @@ First go to the [Pytorch Local Installation](https://pytorch.org/get-started/loc
 
 NOTE: If you choose the GPU-activated version with Cuda, you have to have the currect version of Cuda installed on your pc. Google Cuda version 11.8 (or your version) and open the first link which takes you to a page similar to this [CUDA Download Page](https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local)
 
+**Step 3: Run The Jupyter Notebook**
+
+The following jupyter notebook contains the code necessary for Using Yolo-V5 for a given image.
+
+[Yolo-V5](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/blob/main/Python/yolov5.ipynb)
+
 ## References
 ------
 
