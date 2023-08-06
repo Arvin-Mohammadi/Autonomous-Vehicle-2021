@@ -47,11 +47,6 @@ By focusing on these classes, we can effectively monitor and enhance the safety 
 ------
 Yolo-V5 is an object detection model developed by ultralytics which was released in June 2020. Yolo-V5 has four main models and each of those four model will give different levels of performance. [3]
 
-
-![image](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/assets/69509720/d53c3d78-927c-4785-8635-51f5950217ce)
-
-[Image Source](https://github.com/ultralytics/yolov5)
-
 The output of Yolo contains three things [1]: 
 1. Is object detected or not (Boolian)
 2. The class of the detected object
