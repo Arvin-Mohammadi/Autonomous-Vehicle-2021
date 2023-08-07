@@ -1,4 +1,4 @@
-# Ghazal-Self-Driving-Car
+# Gazelle-Self-Driving-Car
 ------
 Welcome to the Ghazal-Self-Driving-Car repository! This repository stores the progress of the PSG Team on developing self-driving car technologies.
 
