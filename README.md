@@ -109,16 +109,21 @@ cd labelImg && python labelImg.py
 
 NOTE: it is advisable that you run these commands in CMD rather than Jupyter Notebook.
 
-After labeling the dataset and saving the labels the direction should look something like this: 
+After labeling the dataset and saving the labels the direction (plus the important file locations) should look something like this: 
 ```
-|
-|
-main directory 
+root 
     |
+    yolov5 
     |
-    yolov5 # This directory is made by using the command !git clone https://github.com/ultralytics/yolov5
+    labelImg
+    |       |
+    |       labelImg.py
     |
-    |
+    data
+        |
+        images
+        |
+        labels
 ```
 
 ## References
