@@ -163,8 +163,12 @@ model = torch.hub.load('ultralytics/yolov5', 'custom', path='yolov5/runs/train/e
 ```
 
 **Finally**
+
 The said method is from Nicholas Renotte YouTube Channel (Reference [2])
-All of the code needed is included in the [Jupyter Notebook File](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/blob/main/Python/yolov5_finetuning.ipynb)
+
+All of the code needed is included in the
+
+[Jupyter Notebook File](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/blob/main/Python/yolov5_finetuning.ipynb)
 
 
 ## References
