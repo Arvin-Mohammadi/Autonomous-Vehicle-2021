@@ -97,18 +97,29 @@ In the Ghazal-Self-Driving-Car project, transfer learning is employed to fine-tu
 **Step 1: Provide Training Images**
 Using a [Google Image Web-Scarper]() or something similar, you can gather your data. Upon gathering the images, you have to label each of them using a Label Image Application which can be installed using the following command:
 ```
-!git clone https://github.com/tzutalin/labelImg
+git clone https://github.com/tzutalin/labelImg
 ```
 
 you run the following commands for running the labelImg.py script and opening the application.
 ```
-!pip install pyqt5 lxml --upgrade
-!cd labelImg && pyrcc5 -o libs/resources.py resources.qrc
-!cd labelImg && python labelImg.py
+pip install pyqt5 lxml --upgrade
+cd labelImg && pyrcc5 -o libs/resources.py resources.qrc
+cd labelImg && python labelImg.py
 ```
 
-NOTE: it is advisable that you run these commands in CMD rather than Jupyter Notebook 
-After labeling the dataset and saving the labels (your dataset should look something like below: 
+NOTE: it is advisable that you run these commands in CMD rather than Jupyter Notebook.
+
+After labeling the dataset and saving the labels the direction should look something like this: 
+```
+|
+|
+main directory: 
+    |
+    |
+    yolov5: This directory is made by using the command !git clone https://github.com/ultralytics/yolov5
+    |
+    |
+```
 
 ## References
 ------
