@@ -164,6 +164,8 @@ run the following command to load custom model in Jupyter Notebook
 model = torch.hub.load('ultralytics/yolov5', 'custom', path='yolov5/runs/train/exp12/weights/last.pt', force_reload=True)
 ```
 
+![68747470733a2f2f692e6962622e636f2f5a4c38645735532f64657465637465642d706963747572652e6a7067 jpg](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/assets/69509720/442950dd-1c30-4885-b6ad-3d5d53aa7f08)
+
 **Finally**
 
 The said method is from Nicholas Renotte YouTube Channel (Reference [2])
