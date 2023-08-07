@@ -95,7 +95,20 @@ This approach involves leveraging the knowledge gained from pre-trained models t
 In the Ghazal-Self-Driving-Car project, transfer learning is employed to fine-tune the Yolo-V5 model for the task of driver behavior detection. The initial training on a broad dataset allows the model to grasp fundamental visual patterns and features present in various objects. Then, during the fine-tuning stage, the model is trained on a smaller dataset containing specific driver behavior examples. This process helps the model specialize in identifying the behaviors relevant to driver monitoring. So basically, all of the model's layerz are frozen for the fine-tuning, excpet the last ReLU layer that is for final classification. 
 
 **Step 1: Provide Training Images**
+Using a [Google Image Web-Scarper]() or something similar, you can gather your data. Upon gathering the images, you have to label each of them using a Label Image Application which can be installed using the following command:
+```
+!git clone https://github.com/tzutalin/labelImg
+```
 
+you run the following commands for running the labelImg.py script and opening the application.
+```
+!pip install pyqt5 lxml --upgrade
+!cd labelImg && pyrcc5 -o libs/resources.py resources.qrc
+!cd labelImg && python labelImg.py
+```
+
+NOTE: it is advisable that you run these commands in CMD rather than Jupyter Notebook 
+After labeling the dataset and saving the labels (your dataset should look something like below: 
 
 ## References
 ------
