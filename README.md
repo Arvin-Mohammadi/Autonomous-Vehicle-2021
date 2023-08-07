@@ -84,6 +84,19 @@ NOTE: If you choose the GPU-activated version with Cuda, you have to have the cu
 
 The following jupyter notebook contains the code necessary for Using Yolo-V5 for a given image. [Yolo-V5](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/blob/main/Python/yolov5.ipynb)
 
+![1](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/assets/69509720/e11981fa-c82e-41a2-82fc-f31c191b4ceb)
+
+#### Yolo-V5 Training
+------
+
+**WHAT IS TRANSFER LEARNING**
+This approach involves leveraging the knowledge gained from pre-trained models to enhance the performance of new tasks. In the context of object detection for driver monitoring, transfer learning offers a practical solution to efficiently train accurate models. The process begins with a pre-trained model, such as Yolo-V5, which has already learned to recognize a wide range of objects in images. Instead of starting from scratch, this model's learned features and representations are repurposed for the specific task of detecting driver behaviors like eating, drinking, speaking on the phone, and more. This is particularly valuable as it reduces the need for massive amounts of labeled training data, which can be resource-intensive to collect and annotate.
+
+In the Ghazal-Self-Driving-Car project, transfer learning is employed to fine-tune the Yolo-V5 model for the task of driver behavior detection. The initial training on a broad dataset allows the model to grasp fundamental visual patterns and features present in various objects. Then, during the fine-tuning stage, the model is trained on a smaller dataset containing specific driver behavior examples. This process helps the model specialize in identifying the behaviors relevant to driver monitoring. So basically, all of the model's layerz are frozen for the fine-tuning, excpet the last ReLU layer that is for final classification. 
+
+**Step 1: Provide Training Images**
+
+
 ## References
 ------
 
