@@ -82,7 +82,9 @@ NOTE: If you choose the GPU-activated version with Cuda, you have to have the cu
 
 **Step 3: Use Default Model**
 
-The following jupyter notebook contains the code necessary for Using Yolo-V5 for a given image. [Yolo-V5](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/blob/main/Python/yolov5.ipynb)
+The following jupyter notebook contains the code necessary for Using Yolo-V5 for a given image.
+
+[Yolo-V5 Default Model Jupyter Notebook](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/blob/main/Python/yolov5.ipynb)
 
 ![1](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/assets/69509720/e11981fa-c82e-41a2-82fc-f31c191b4ceb)
 
@@ -168,7 +170,7 @@ The said method is from Nicholas Renotte YouTube Channel (Reference [2])
 
 All of the code needed is included in the
 
-[Jupyter Notebook File](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/blob/main/Python/yolov5_finetuning.ipynb)
+[Yolo-V5 Training Jupyter Notebook](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/blob/main/Python/yolov5_finetuning.ipynb)
 
 
 ## References
