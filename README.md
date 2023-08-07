@@ -113,10 +113,10 @@ After labeling the dataset and saving the labels the direction should look somet
 ```
 |
 |
-main directory: 
+main directory 
     |
     |
-    yolov5: This directory is made by using the command !git clone https://github.com/ultralytics/yolov5
+    yolov5 # This directory is made by using the command !git clone https://github.com/ultralytics/yolov5
     |
     |
 ```
