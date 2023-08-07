@@ -94,7 +94,7 @@ This approach involves leveraging the knowledge gained from pre-trained models t
 
 In the Ghazal-Self-Driving-Car project, transfer learning is employed to fine-tune the Yolo-V5 model for the task of driver behavior detection. The initial training on a broad dataset allows the model to grasp fundamental visual patterns and features present in various objects. Then, during the fine-tuning stage, the model is trained on a smaller dataset containing specific driver behavior examples. This process helps the model specialize in identifying the behaviors relevant to driver monitoring. So basically, all of the model's layerz are frozen for the fine-tuning, excpet the last ReLU layer that is for final classification. 
 
-**Step 1: Provide Training Images**
+**Step 1: Labeling Training Data**
 Using a [Google Image Web-Scarper]() or something similar, you can gather your data. Upon gathering the images, you have to label each of them using a Label Image Application which can be installed using the following command:
 ```
 git clone https://github.com/tzutalin/labelImg
@@ -109,11 +109,14 @@ cd labelImg && python labelImg.py
 
 NOTE: it is advisable that you run these commands in CMD rather than Jupyter Notebook.
 
+**Step 2: Changing 'dataset.yml' File**
 After labeling the dataset and saving the labels the direction (plus the important file locations) should look something like this: 
 ```
 root 
     |
-    yolov5 
+    yolov5
+    |     |
+    |     dataset.yml
     |
     labelImg
     |       |
@@ -125,6 +128,41 @@ root
         |
         labels
 ```
+
+in dataset.yml file the overall structure should be something like the following: 
+
+```
+path: ../data  
+train: images  
+val: images  
+test:  
+
+names:
+  0: normal
+  1: drowsy
+  2: speaking 
+  3: eating
+  4: drinking
+```
+
+**Step 3: Training**
+
+run the following command to train data.
+```
+cd yolov5 && python train.py --img 320 --batch 4 --epochs 150 --data dataset.yml --weights yolov5s.pt --workers 1
+```
+
+**Step 4: Testing**
+
+run the following command to load custom model in Jupyter Notebook
+```
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='yolov5/runs/train/exp12/weights/last.pt', force_reload=True)
+```
+
+**Finally**
+The said method is from Nicholas Renotte YouTube Channel (Reference [2])
+All of the code needed is included in the [Jupyter Notebook File](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/blob/main/Python/yolov5_finetuning.ipynb)
+
 
 ## References
 ------
