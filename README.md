@@ -176,7 +176,9 @@ All of the code needed is included in the
 
 ### Dataset Preparation
 ------
+For gathering data we'll use Google Image and a python script for web-scraping. The Python script is linked below: 
 
+[Python Web-Scraper]()
 
 
 ### Results
