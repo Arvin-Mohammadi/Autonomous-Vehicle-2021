@@ -178,7 +178,7 @@ All of the code needed is included in the
 ------
 For gathering data we'll use Google Image and a python script for web-scraping. The Python script is linked below: 
 
-[Python Web-Scraper]()
+[Python Web-Scraper](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/tree/main/Research/Dataset)
 
 
 ### Results
