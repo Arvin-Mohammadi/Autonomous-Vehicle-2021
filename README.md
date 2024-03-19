@@ -1,5 +1,5 @@
 # Autonomous-Vehicle-2021
-This repostiry is dedicated to study the following: 
+This repository is dedicated to study the following: 
 - A brief study of CNNs
 - Implementing Web-scraper for dataset gathering
 - Image Detection using YOLO-V5
