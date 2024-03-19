@@ -1,6 +1,6 @@
-# Gazelle-Self-Driving-Car
-------
-Welcome to the Ghazal-Self-Driving-Car repository! This repository stores the progress of the PSG Team on developing self-driving car technologies.
+# Autonomous-Vehicle-2021
+This repostiry is dedicated to study the following: 
+- Image Detection using YOLO-V5
 
 ![3-1024x630-1024x630](https://github.com/ArthasMenethil-A/Ghazal-Self-Driving-Car/assets/69509720/7c0e8572-2afd-472a-a1e6-e665990b3c47)
 
